@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2351-first-letter-to-appear-twice](https://github.com/Sachin1023/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sachin1023/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sachin1023/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2351-first-letter-to-appear-twice](https://github.com/Sachin1023/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Sachin1023/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Counting
@@ -39,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Sachin1023/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Sachin1023/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sachin1023/Leetcode/tree/master/0518-coin-change-ii) |
+| [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [1563-stone-game-v](https://github.com/Sachin1023/Leetcode/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/Sachin1023/Leetcode/tree/master/2029-stone-game-ix) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sachin1023/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -84,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2029-stone-game-ix](https://github.com/Sachin1023/Leetcode/tree/master/2029-stone-game-ix) |
 ## Minimax
 |  |
