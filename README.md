@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/Sachin1023/Leetcode/tree/master/1563-stone-game-v) |
 | [1927-sum-game](https://github.com/Sachin1023/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Sachin1023/Leetcode/tree/master/2029-stone-game-ix) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Sachin1023/Leetcode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Linked List
 |  |
 | ------- |
