@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [1143-longest-common-subsequence](https://github.com/Sachin1023/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1927-sum-game](https://github.com/Sachin1023/Leetcode/tree/master/1927-sum-game) |
 | [2351-first-letter-to-appear-twice](https://github.com/Sachin1023/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2697-lexicographically-smallest-palindrome](https://github.com/Sachin1023/Leetcode/tree/master/2697-lexicographically-smallest-palindrome) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Sachin1023/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Sachin1023/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sachin1023/Leetcode/tree/master/0518-coin-change-ii) |
+| [1143-longest-common-subsequence](https://github.com/Sachin1023/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1563-stone-game-v](https://github.com/Sachin1023/Leetcode/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/Sachin1023/Leetcode/tree/master/1872-stone-game-viii) |
 ## Knapsack Problem
@@ -136,4 +138,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2697-lexicographically-smallest-palindrome](https://github.com/Sachin1023/Leetcode/tree/master/2697-lexicographically-smallest-palindrome) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/Sachin1023/Leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
