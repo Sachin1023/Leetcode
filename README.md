@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2697-lexicographically-smallest-palindrome](https://github.com/Sachin1023/Leetcode/tree/master/2697-lexicographically-smallest-palindrome) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Sachin1023/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sachin1023/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sachin1023/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -140,8 +141,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2697-lexicographically-smallest-palindrome](https://github.com/Sachin1023/Leetcode/tree/master/2697-lexicographically-smallest-palindrome) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sachin1023/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Longest Common Subsequence
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/Sachin1023/Leetcode/tree/master/1143-longest-common-subsequence) |
+## Enumeration
+|  |
+| ------- |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sachin1023/Leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 <!---LeetCode Topics End-->
