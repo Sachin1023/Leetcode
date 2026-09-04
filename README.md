@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Sachin1023/Leetcode/tree/master/0049-group-anagrams) |
 | [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2351-first-letter-to-appear-twice](https://github.com/Sachin1023/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sachin1023/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Sachin1023/Leetcode/tree/master/0049-group-anagrams) |
 | [1143-longest-common-subsequence](https://github.com/Sachin1023/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1927-sum-game](https://github.com/Sachin1023/Leetcode/tree/master/1927-sum-game) |
 | [2351-first-letter-to-appear-twice](https://github.com/Sachin1023/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Sachin1023/Leetcode/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sachin1023/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/Sachin1023/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Sachin1023/Leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -174,4 +177,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sachin1023/Leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/Sachin1023/Leetcode/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
