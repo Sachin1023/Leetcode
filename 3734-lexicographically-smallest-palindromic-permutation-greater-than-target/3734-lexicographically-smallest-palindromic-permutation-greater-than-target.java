@@ -1,108 +1,70 @@
 class Solution {
+    String res="";
+    String mid = "";
+    int halflen=0;
 
     public String lexPalindromicPermutation(String s, String target) {
-        int n = s.length();
-        // Special case: length of 1
-        if (n == 1) {
-            return s.compareTo(target) > 0 ? s : "";
-        }
+        int n=s.length();
+        halflen=n/2;
+        int cnt[]=new int [26];
+        for(char ch : s.toCharArray())
+            cnt[ch-'a']++;
 
-        // Count the frequency of each character
-        int[] cnt = new int[26];
-        for (char c : s.toCharArray()) {
-            cnt[c - 'a']++;
-        }
+        int oddFreq=0;
 
-        // Check if it can form a palindrome and record the characters with odd occurrences
-        String oddChar = "";
-        for (int i = 0; i < 26; i++) {
-            if (cnt[i] % 2 == 1) {
-                // More than one character appears an odd number of times, cannot form a palindrome
-                if (oddChar != "") {
-                    return "";
-                }
-                oddChar = String.valueOf((char) ('a' + i));
+        for(int i=0;i<26;i++)
+        {
+            if(cnt[i]%2==1) 
+            {   
+                oddFreq++;
+                mid= String.valueOf((char)('a'+i));
             }
-            cnt[i] /= 2; // It takes only half the characters to construct the left half
+            cnt[i]/=2;
         }
+        if(oddFreq>1) return "";
 
-        StringBuilder prefix = new StringBuilder();
+        StringBuilder curr= new StringBuilder();
 
-        // Construct the left part of each digit greedily
-        for (int i = 0; i < n / 2; i++) {
-            boolean found = false;
-            // Try to place the smallest character in lexicographical order
-            for (int j = 0; j < 26; j++) {
-                if (cnt[j] == 0) {
-                    continue;
-                }
-
-                cnt[j]--;
-                if (
-                    check(
-                        prefix.toString(),
-                        (char) ('a' + j),
-                        cnt,
-                        oddChar,
-                        target
-                    )
-                ) {
-                    // If the constructed palindrome is greater than target, choose the character
-                    prefix.append((char) ('a' + j));
-                    found = true;
-                    break;
-                } else {
-                    cnt[j]++; // Not meeting the conditions, reset the counter
-                }
-            }
-            if (!found) {
-                return ""; // Cannot construct a palindrome larger than target
-            }
-
-            if (prefix.charAt(i) > target.charAt(i)) {
-                // prefix is already greater than target
-                StringBuilder left = new StringBuilder(prefix);
-                for (int j = 0; j < 26; j++) {
-                    for (int k = 0; k < cnt[j]; k++) {
-                        left.append((char) ('a' + j));
-                    }
-                }
-                String palindrome =
-                    left.toString() +
-                    oddChar +
-                    new StringBuilder(left).reverse().toString();
-                return palindrome;
-            }
-        }
-
-        // Construct the final palindrome string
-        String ans =
-            prefix.toString() +
-            oddChar +
-            new StringBuilder(prefix).reverse().toString();
-        return ans;
+        solve(curr,cnt,target,0,false);
+        return res;
     }
 
-    private boolean check(
-        String prefix,
-        char c,
-        int[] cnt,
-        String oddChar,
-        String target
-    ) {
-        StringBuilder left = new StringBuilder(prefix);
-        left.append(c);
-        for (int i = 25; i >= 0; i--) {
-            for (int k = 0; k < cnt[i]; k++) {
-                left.append((char) ('a' + i));
+    boolean solve(StringBuilder curr, int[] cnt, String target,int i, boolean greater)
+    {   
+        if(i==halflen )
+        {
+            
+            StringBuilder rev = new StringBuilder(curr).reverse(); 
+            String candidate = curr.toString() +mid+rev.toString();
+            if(candidate.compareTo(target)>0)
+            {   
+                res=candidate;
+                return true;
             }
+        
+
+            return false;
         }
 
-        String palindrome =
-            left.toString() +
-            oddChar +
-            new StringBuilder(left).reverse().toString();
+        for(char ch='a'; ch<='z';ch++)
+        {
+            if(cnt[ch-'a'] == 0) continue; //skip;
+            if(!greater && ch < target.charAt(i)) continue; //skip
 
-        return palindrome.compareTo(target) > 0;
+            //do
+            cnt[ch-'a']--;
+            curr.append(ch);
+
+            boolean isGreater = greater || ch> target.charAt(i);
+
+           if( solve(curr,cnt,target,i+1,isGreater) )
+            return true;
+
+            //undo
+            cnt[ch-'a']++;
+            curr.setLength(curr.length()-1);
+        }
+        return false;
     }
+
 }
