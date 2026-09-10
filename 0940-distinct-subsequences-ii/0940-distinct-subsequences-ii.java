@@ -1,24 +1,53 @@
 class Solution {
-    public int distinctSubseqII(String S) {
-        int MOD = 1_000_000_007;
-        int N = S.length();
-        int[] dp = new int[N+1];
-        dp[0] = 1;
+    int mod = (int)1e9+7;
+    public int distinctSubseqII(String s) {
+        int n=s.length();
+        int [] lastseen = new int[26];
+        int [] prev = new int[n+1]; //1 base, last time we saw nth index
 
-        int[] last = new int[26];
-        Arrays.fill(last, -1);
+        int dp[] = new int[n+1];
+        Arrays.fill(dp,-1);
 
-        for (int i = 0; i < N; ++i) {
-            int x = S.charAt(i) - 'a';
-            dp[i+1] = dp[i] * 2 % MOD;
-            if (last[x] >= 0)
-                dp[i+1] -= dp[last[x]];
-            dp[i+1] %= MOD;
-            last[x] = i;
+        for(int i=1; i<=n;i++)
+        {
+            int idx = s.charAt(i-1) -'a';
+            prev[i]=lastseen[idx];
+            lastseen[idx]=i;
+        }   
+
+        dp[0]=1;
+        for(int i=1;i<=n;i++)
+        {
+            int total = (2*dp[i-1])%mod;
+            if(prev[i]!=0)
+            {
+                int duplicate = dp[prev[i]-1];
+                total= (total - duplicate + mod)%mod;
+            }
+            dp[i]=total;
         }
-
-        dp[N]--;
-        if (dp[N] < 0) dp[N] += MOD;
-        return dp[N];
+        return (dp[n]-1+mod)%mod;
+        // return (solve(n,dp,prev)-1 +mod)%mod;
     }
+    
+
+    //recursion
+    // int solve(int n,int dp[],int []prev)
+    // {
+    //     if(n==0)
+    //      return 1;
+        
+    //     if(dp[n]!=-1)
+    //         return dp[n];
+        
+    //     int total = (2* solve(n-1,dp,prev))%mod;
+
+    //     if(prev[n]!=0)
+    //     {
+    //         int duplicate = solve(prev[n]-1,dp,prev);
+    //         total= (total - duplicate + mod)%mod;
+    //     }    
+
+    //     return dp[n]=total;
+    // }
 }
