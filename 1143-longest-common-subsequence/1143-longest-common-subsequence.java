@@ -19,12 +19,12 @@ class Solution {
                 i--;
                 j--;
             }
-            else{
-                if(dp[i][j]==dp[i-1][j])
-                    j--;
-                else
-                    i--;
+            else if( dp[i-1][j] >= dp[i][j-1])
+            {
+                i--;
             }
+            else 
+                j--;
         } 
         String lcs= sb.reverse().toString();
         System.out.println(lcs);
