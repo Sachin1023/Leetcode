@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Sachin1023/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Sachin1023/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sachin1023/Leetcode/tree/master/0518-coin-change-ii) |
+| [0835-image-overlap](https://github.com/Sachin1023/Leetcode/tree/master/0835-image-overlap) |
 | [1386-cinema-seat-allocation](https://github.com/Sachin1023/Leetcode/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sachin1023/Leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1563-stone-game-v](https://github.com/Sachin1023/Leetcode/tree/master/1563-stone-game-v) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0835-image-overlap](https://github.com/Sachin1023/Leetcode/tree/master/0835-image-overlap) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sachin1023/Leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Trie
 |  |
